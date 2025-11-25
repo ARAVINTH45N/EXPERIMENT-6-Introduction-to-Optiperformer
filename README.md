@@ -24,7 +24,27 @@ The system includes:
 - A Bit Error Rate (BER) analyzer
 
 ---
-
+## PROCEDURE: 
+1. Download and install OptiPerformer from the optiwave.com web site. 
+2. Copy the ‘Introduction_OptiPerformer.osp’ file to your PC 
+3. Start OptiPerformer 
+4. Use either the File menu or the Open File button to open the Fiber Optic System File. 
+5. Study the layout, which includes some text and boxes to identify the three components of the 
+fiber optic system. The “transmitter” section includes a binary source (PRBS or pseudo-random 
+bit sequence generator), an electrical pulse generator, a laser diode and an external modulator. 
+The receiver section includes a photodiode, a low-pass filter and a decision circuit, which 
+includes a BER analyzer. We will cover these components in more detail later in the course. 
+6. Run the simulation by pushing the start button. The progress of the simulation will be displayed 
+and the message “Calculation Finished!” will appear when the simulation runs to completion. 
+7. Double click on the optical power meter and the BER analyzer and move the windows as 
+necessary for clarity. Check the box next to “Show Eye Diagram” in the BER window. The optical 
+power meter shows the power at the input to the photodiode in both watts and dBm. The BER 
+window displays the “eye diagram” and several quantities including the “Max Q 
+Factor” and the “Min BER”. 
+8. The simulation is set to run 5 “iterations”, with the fiber length varying from 50 to 150 km in 5 
+steps. The index is displayed in the upper right corner of the layout. To step through the 
+iterations, use the forward and reverse buttons in the lower left of the window. Note the change 
+in received power and BER display (eye diagram, Q factor and BER) with fiber length.
 ## Instructions
 
 1. Download and install OptiPerformer from [optiwave.com](https://optiwave.com).  
